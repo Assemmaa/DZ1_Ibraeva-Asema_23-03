@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 35px;
+    gap: 23px;
+}
+
+.block {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+}
+
+.box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: darkorchid;
+}
